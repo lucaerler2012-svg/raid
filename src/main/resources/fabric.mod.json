@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "dualraids",
+	"version": "${version}",
+	"name": "Dual Raids",
+	"description": "Erlaubt zwei Raids gleichzeitig im selben Dorf. Die Spawn-Orte der Raider bleiben wie im Vanilla-Spiel.",
+	"authors": ["kebab.hans"],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["dev.kebab.dualraids.DualRaidsMod"]
+	},
+	"mixins": ["dualraids.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25"
+	}
+}
